@@ -9,7 +9,7 @@ shared_script {
   "@vrp/lib/utils.lua"
 }
 
-server_script {
+server_script {				-- server.lua is not needed here as the vrp.lua will load the server.lua with an async function
 	"vrp.lua"
 }
 
